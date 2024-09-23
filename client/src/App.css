@@ -1,0 +1,66 @@
+#root {
+    margin: 1% auto;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}
+
+.main {
+    background-color: #121a28;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.column-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.row-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.cta {
+    width: 95%;
+}
+
+.todo p {
+    width: 357px;
+    text-align: left;
+}
+
+.todo input {
+    width: 357px;
+    padding: 5px;
+}
+
+.todo textarea {
+    width: 357px;
+    padding: 5px;
+}
+
+.todo-item {
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    /* gap: 6px; */
+}
+
+.buttons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.separator{
+    width: 50px;
+}
